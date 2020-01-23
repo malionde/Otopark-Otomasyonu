@@ -1,0 +1,543 @@
+﻿* {
+    top: 0px;
+    box-sizing: border-box;
+}
+/*--------- Font ------------*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/*@import url(https://fonts.googleapis.com/css?family=Nunito);*/
+@import "compass/css3";
+
+/* Login*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    box-shadow: 0 1px 0 #cfcfcf;
+}
+
+h4 {
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background-color: white;
+}
+
+.header {
+    position: absolute;
+    float: left;
+    background-color: #eee;
+    width: 98%;
+}
+
+.logo {
+    margin: 20px;
+    float: left;
+}
+
+.topnav {
+    margin: 20px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:last-child {
+            float: right;
+        }
+
+        .topnav a:hover {
+            background-color: #44CCF6;
+            color: white;
+        }
+
+
+.active {
+    color: white !important;
+    background-color: #44CCF6;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.slider {
+    overflow: hidden;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 35px;
+}
+
+.row {
+    margin: 80px 0 50px 0;
+    padding: 20px;
+    display: flex;
+}
+
+.column {
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.08);
+    width: 250px;
+    height: 600px;
+}
+
+    .column:first-child {
+        float: left;
+    }
+
+    .column:last-child {
+        float: right;
+    }
+
+.head {
+    padding: 2px;
+    height: 12%;
+    font-size: 3.0rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.price {
+    padding: 5px;
+    height: 23%;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    font-weight: 600;
+    font-size: 1.45rem;
+    padding: 10px;
+    height: 50%;
+    text-align: center;
+}
+
+.foot {
+    padding: 5px;
+    height: 10%;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+
+.video {
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+    width: 100%;
+    height: auto;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+.minitext {
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+    width: 30%;
+    flex-basis: inherit;
+    padding: 10px;
+    height: auto;
+    font-size: 1.1em;
+}
+
+.bigtext {
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 1.1em;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+}
+
+    .footer .col {
+        width: 190px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0px 20px 20px 20px;
+    }
+
+        .footer .col h1 {
+            margin: 0;
+            padding: 0;
+            font-family: inherit;
+            font-size: 12px;
+            line-height: 17px;
+            padding: 20px 0px 5px 0px;
+            color: rgba(255,255,255,0.2);
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.250em;
+        }
+
+        .footer .col ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .footer .col ul li {
+                color: #999999;
+                font-size: 14px;
+                font-family: inherit;
+                font-weight: bold;
+                padding: 5px 0px 5px 0px;
+                cursor: pointer;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+            }
+
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/*-----Slides-----*/
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+    .rslides li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+        .rslides li:first-child {
+            position: relative;
+            display: block;
+            float: left;
+        }
+
+    .rslides img {
+        display: block;
+        height: auto;
+        float: left;
+        width: 100%;
+        border: 0;
+    }
+
+
+/*Blog*/
+.blogHeader {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #eee;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.09);
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/*Contacts*/
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout*/
+
+@media screen and (max-width: 810px) {
+    .header {
+        width: 91%;
+    }
+
+    .topnav a {
+        font-size: 13px;
+    }
+
+        .topnav a:not(:first-child), .dropdown .dropbtn {
+            display: none;
+        }
+
+        .topnav a.icon {
+            margin-right: 5%;
+            float: right;
+            display: block;
+        }
+}
+
+@media screen and (max-width: 810px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+
+        .topnav.responsive .dropdown {
+            float: none;
+        }
+
+        .topnav.responsive .dropdown-content {
+            position: relative;
+        }
+
+        .topnav.responsive .dropdown .dropbtn {
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 810px) {
+    .row {
+        align-content: center;
+        margin-left: auto;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .column {
+        width: 92%;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-left: auto;
+    }
+
+        .column:last-child {
+            margin-right: auto;
+        }
+
+
+    .slider {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .bigtext {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+
+    .video {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+
+    .minitext {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        width: 95%;
+        height: auto !important;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .footer .col {
+        min-width: 300px !important;
+        width: 50% !important;
+    }
+
+        .footer .col h1 {
+            font-size: 14px;
+        }
+
+        .footer .col .mymap {
+            width: 50px;
+        }
+
+        .footer .col ul li {
+            font-size: 13px;
+        }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer .col {
+        min-width: 300px !important;
+        width: 50% !important;
+    }
+
+        .footer .col h1 {
+            font-size: 14px;
+        }
+
+        .footer .col ul li {
+            font-size: 15px;
+        }
+}
+
+@media only screen and (max-width: 340px) {
+    .footer .col {
+        min-width: 300px !important;
+        width: 20% !important;
+    }
+}
